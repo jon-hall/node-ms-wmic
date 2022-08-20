@@ -1,6 +1,6 @@
 {
   "name": "@getpid/ms-wmic",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A Node.js wrapper for Microsoft Windows' WMIC",
   "license": "MIT",
   "homepage": "https://github.com/jon-hall/node-ms-wmic",
