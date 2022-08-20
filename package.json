@@ -1,9 +1,9 @@
 {
-  "name": "ms-wmic",
+  "name": "@getpid/ms-wmic",
   "version": "1.0.4",
   "description": "A Node.js wrapper for Microsoft Windows' WMIC",
   "license": "MIT",
-  "homepage": "https://github.com/mjhasbach/node-ms-wmic",
+  "homepage": "https://github.com/jon-hall/node-ms-wmic",
   "keywords": [
     "Microsoft",
     "Windows",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjhasbach/node-ms-wmic.git"
+    "url": "git+https://github.com/jon-hall/node-ms-wmic.git"
   },
   "author": {
     "name": "Matthew Hasbach",
@@ -30,17 +30,11 @@
     "lib": "lib"
   },
   "dependencies": {
-    "async": "~1.2.1",
-    "csv": "~0.4.0",
-    "lodash": "~3.9.3"
-  },
-  "devDependencies": {
-    "release-script": "0.2.5"
+    "async": "~3.2.4",
+    "csv": "~6.2.0",
+    "lodash": "^4.17.21"
   },
   "bugs": {
-    "url": "https://github.com/mjhasbach/node-ms-wmic/issues"
-  },
-  "scripts": {
-    "release": "release"
+    "url": "https://github.com/jon-hall/node-ms-wmic/issues"
   }
 }
